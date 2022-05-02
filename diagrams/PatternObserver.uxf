@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="14.3.0">
+  <zoom_level>12</zoom_level>
+  <element>
+    <id>UMLActor</id>
+    <coordinates>
+      <x>156</x>
+      <y>888</y>
+      <w>84</w>
+      <h>132</h>
+    </coordinates>
+    <panel_attributes>Medecin</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>180</x>
+      <y>720</y>
+      <w>228</w>
+      <h>192</h>
+    </coordinates>
+    <panel_attributes>demandeNouveauPatient</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;140.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLGeneric</id>
+    <coordinates>
+      <x>60</x>
+      <y>420</y>
+      <w>264</w>
+      <h>312</h>
+    </coordinates>
+    <panel_attributes>Salle
+halign=left</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLActor</id>
+    <coordinates>
+      <x>132</x>
+      <y>516</y>
+      <w>120</w>
+      <h>132</h>
+    </coordinates>
+    <panel_attributes>PatientSorti</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>312</x>
+      <y>252</y>
+      <w>192</w>
+      <h>324</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-
+Observe</panel_attributes>
+    <additional_attributes>10.0;250.0;140.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLGeneric</id>
+    <coordinates>
+      <x>600</x>
+      <y>396</y>
+      <w>240</w>
+      <h>360</h>
+    </coordinates>
+    <panel_attributes>File d'attente
+halign=left</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLActor</id>
+    <coordinates>
+      <x>648</x>
+      <y>480</y>
+      <w>144</w>
+      <h>132</h>
+    </coordinates>
+    <panel_attributes>prochain Patient</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLGeneric</id>
+    <coordinates>
+      <x>60</x>
+      <y>36</y>
+      <w>804</w>
+      <h>228</h>
+    </coordinates>
+    <panel_attributes>Hopital
+halign=left</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>300</x>
+      <y>252</y>
+      <w>132</w>
+      <h>192</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;&gt;
+a une liste de</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;140.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>612</x>
+      <y>252</y>
+      <w>132</w>
+      <h>168</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;&gt;
+a une liste de</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;120.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>744</x>
+      <y>252</y>
+      <w>240</w>
+      <h>168</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;&gt;
+Recupere le premier patient</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;120.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>60</x>
+      <y>252</y>
+      <w>240</w>
+      <h>192</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;&gt;
+envoyer le patient recupere</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;140.0</additional_attributes>
+  </element>
+</diagram>
