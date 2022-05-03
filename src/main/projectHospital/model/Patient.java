@@ -2,14 +2,6 @@ package projet1.projectHospital.model;
 
 public class Patient {
 
-    public Patient(int idPatient, String lName, String fName, int age, Phone phone) {
-        this.idPatient = idPatient;
-        this.lName = lName;
-        this.fName = fName;
-        this.age = age;
-        this.phone = phone;
-    }
-
     public Patient(int idPatient, String lName, String fName, int age, Adress adress) {
         this.idPatient = idPatient;
         this.lName = lName;
@@ -39,12 +31,6 @@ public class Patient {
         this.lName = lName;
         this.fName = fName;
         this.age = age;
-    }
-
-    @Override
-    public String toString() {
-        return "Patient [adress=" + adress + ", age=" + age + ", fName=" + fName + ", idPatient=" + idPatient
-                + ", lName=" + lName + ", phone=" + phone + "]";
     }
 
 }

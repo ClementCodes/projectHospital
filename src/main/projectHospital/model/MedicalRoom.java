@@ -2,6 +2,10 @@ package projet1.projectHospital.model;
 
 public class MedicalRoom {
 
+    public int idRoom;
+    public boolean busy;
+    public Patient patient;
+
     public int getIdRoom() {
         return idRoom;
     }
@@ -14,8 +18,8 @@ public class MedicalRoom {
         return busy;
     }
 
-    public void setBusy(boolean busy) {
-        this.busy = busy;
+    public static void setBusy(boolean busy) {
+        busy = busy;
     }
 
     public Patient getPatient() {
@@ -31,10 +35,6 @@ public class MedicalRoom {
         this.busy = busy;
         this.patient = patient;
     }
-
-    public int idRoom;
-    public boolean busy;
-    public Patient patient;
 
     public boolean pullPatient() {
         return true;
